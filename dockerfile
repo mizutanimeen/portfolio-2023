@@ -1,5 +1,5 @@
 FROM node:16-alpine
 
-COPY ./app /app
+COPY ./ /app
 
-WORKDIR /react/app
+WORKDIR /app
