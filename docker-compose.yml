@@ -1,0 +1,9 @@
+version: "3.8"
+services:
+  react:
+      build: .
+      container_name: "portfolio-2023"
+      tty: true
+      command: sh -c "npm install && npm start"
+      ports:
+        - 3333:3333
